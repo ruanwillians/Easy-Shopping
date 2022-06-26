@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #F2F2F2 ;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+}
+
+nav{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.text{
+    margin-left: 136px;
+    margin-top: 150px;
+}
+
+section h1{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5d5d75;
+    width: 400px;
+    line-height: 80px;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    color: #5D5D7D;
+    width: 490px;
+    height: 144px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    text-align: justify;
+}
+
+section button{
+    border: none;
+    color: #F2F2F2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 15px;
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    border-radius: 30px;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+}
+
+.box{
+   background-color:#5D5D7D;
+    height: 100vh;
+    width: 491px;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    mix-blend-mode: normal;
+    opacity: 0.16;
+}
+
+img{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    top: 150px;
+    right: 250px;
+}
+
+.nav{
+    margin-right: 50px;
+}
+
+header a {
+    padding: 10px;
+    width: 59px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    cursor: pointer;
+}
+
+header a:nth-child(2){
+    opacity: 0.4;
+}
+
+header a:hover{
+    opacity: 0.4;
+}
+
+@media (max-width: 1200px){
+
+    .body{
+        overflow: hidden;
+        display: flex;
+    }
+    header{
+        display: none;
+    }
+
+    .text{
+        margin: 40px;
+    }
+
+    section h1{
+        font-size: 46px;
+        text-align: center;
+        line-height: 52px;
+        width: 268px ;
+        left: 50px;
+    }
+
+    section p {
+        font-size: 14px;
+        width: 296px;
+        height: 96px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .box{
+        position: static;
+        width: 100vw;
+    }
+
+    img{
+        width: 271px;
+        height: 322px;
+        position: absolute;
+        top: 70vh;
+        left: 3vh;
+    }
+    
+}
